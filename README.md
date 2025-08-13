@@ -16,7 +16,7 @@ To get a local copy instance up and running follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/<YOUR_GITHUB_USERNAME>/repo_name.git
    ```
 2. Install program dependencies
    ```sh
