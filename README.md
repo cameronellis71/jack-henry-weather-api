@@ -23,7 +23,6 @@ To get a local copy instance up and running follow these steps:
    go get github.com/gorilla/mux
    go get github.com/stretchr/testify
    go get github.com/jarcoal/httpmock
-   go get github.com/stretchr/testify
    ```
 3. Run the program on localhost
    ```sh
