@@ -2,8 +2,15 @@ package main
 
 import (
 	"fmt"
+	"log"
+	"net/http"
+
+	"jack-henry-weather-api/router"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
+	r := router.NewRouter()
+
+	fmt.Println("Server is running on http://localhost:8080")
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
