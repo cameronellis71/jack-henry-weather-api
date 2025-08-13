@@ -7,7 +7,7 @@ To get a local copy instance up and running follow these steps:
 
 ### Prerequisites
 
-* Install Golang
+* Install Golang (if using MacOS)
   ```sh
   brew install go
   ```
